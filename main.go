@@ -45,5 +45,5 @@ func main() {
 	factory.WaitForCacheSync(stopChan)
 
 	// 运行自定义控制器
-	c.Run()
+	c.Run(stopChan)
 }
